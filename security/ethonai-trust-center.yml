@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.ethon.com
+url: https://trust.ethon.com
+# EthonAI operates a hosted Trust Center at trust.ethon.com (HTTP 200, page
+# title "EthonAI Trust Center"). The page is a client-rendered SPA (SafeBase/
+# Vanta-style), so the specific certification list and controls could not be
+# extracted by automated fetch. No named certifications are asserted here to
+# avoid fabrication; the Trust Center existence is verified.
+certifications: []
+notes: >-
+  Live trust center verified reachable (200). Certification detail is behind a
+  JavaScript-rendered portal and was not machine-extractable at probe time;
+  request access via the portal to enumerate SOC 2 / ISO 27001 status.
+evidence:
+  - source: https://trust.ethon.com
+    status: 200
+    kind: trust-center
+    signal: page title "EthonAI Trust Center"

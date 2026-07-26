@@ -1,8 +1,31 @@
 aid: ethonai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ethonai.png
 name: Ethonai
-description: Ethonai is a company surfaced as a portfolio company of earlybird, general-catalyst, index-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  EthonAI AG is an ETH Zurich spin-off (founded 2021, Zurich, Switzerland) that
+  builds an Industrial AI Platform — the Manufacturing Analytics System (MAS).
+  It applies Causal AI through a no-code platform so manufacturing engineers can
+  move from reactive dashboards to prescriptive quality and process analytics,
+  deploying models to production in hours. The platform ships as Analyst,
+  Inspector, and Operator modules, is cloud-agnostic (AWS, GCP, Azure), and is
+  API-first: data flows in and out via a REST API, MQTT streaming, and a Python
+  SDK for notebooks and custom applications. EthonAI is used by manufacturers
+  including Siemens, Bosch, Roche, and Lindt & Sprüngli, is part of the Siemens
+  Xcelerator ecosystem, and is backed by Index Ventures, General Catalyst,
+  Earlybird, and Founderful. It does not publish a public API reference or
+  developer portal; its API and SDK are documented inside the authenticated
+  product.
 url: https://raw.githubusercontent.com/api-evangelist/ethonai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +37,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Industrial AI
+- Manufacturing
+- Manufacturing Analytics
+- Quality Management
+- Machine Learning
+- Causal AI
+- Industry 4.0
+- IoT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +56,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://ethon.ai/
+  url: https://www.ethon.com/
+- type: Blog
+  url: https://www.ethon.com/news
+- type: TrustCenter
+  url: https://trust.ethon.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ethonai/
+- type: DomainSecurity
+  url: security/ethonai-domain-security.yml
+- type: LLMsTxt
+  url: llms/ethonai-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,36 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of /.well-known/* on EthonAI hosts
+# No .well-known discovery documents are published. All probes returned 404.
+# This is a valid, expected result for a closed enterprise SaaS with no public
+# API surface. No raw files were saved and no WellKnown/SecurityTxt pointer is
+# wired (nothing to point at).
+hosts:
+  - host: https://www.ethon.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+  - host: https://ethon.ai
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
