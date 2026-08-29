@@ -38,6 +38,9 @@ description: >-
   developer portal; its API and SDK are documented inside the authenticated
   product.
 url: https://raw.githubusercontent.com/api-evangelist/ethonai/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It does not publish a public API reference or developer portal; its API and SDK are documented inside the authenticated product."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
