@@ -58,7 +58,7 @@ tags:
 - Manufacturing
 - Manufacturing Analytics
 - Quality Management
-- Machine-Learning
+- Machine Learning
 - Causal AI
 - Industry 4.0
 - IoT
@@ -72,6 +72,7 @@ tags_raw:
 - Causal AI
 - Industry 4.0
 - IoT
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
