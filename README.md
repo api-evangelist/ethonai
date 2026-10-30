@@ -64,6 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ethonai is a company surfaced as a portfolio company of earlybird, general-catalyst, index-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+EthonAI AG is an ETH Zurich spin-off (founded 2021, Zurich, Switzerland) that builds an Industrial AI Platform — the Manufacturing Analytics System (MAS). It applies Causal AI through a no-code platform so manufacturing engineers can move from reactive dashboards to prescriptive quality and process analytics, deploying models to production in hours. The platform ships as Analyst, Inspector, and Operator modules, is cloud-agnostic (AWS, GCP, Azure), and is API-first: data flows in and out via a REST API, MQTT streaming, and a Python SDK for notebooks and custom applications. EthonAI is used by manufacturers including Siemens, Bosch, Roche, and Lindt & Sprüngli, is part of the Siemens Xcelerator ecosystem, and is backed by Index Ventures, General Catalyst, Earlybird, and Founderful. It does not publish a public API reference or developer portal; its API and SDK are documented inside the authenticated product.
 
-Backed by: earlybird, general-catalyst, index-ventures — https://ethon.ai/
+**Areas:** Company · Industrial AI · Manufacturing · Manufacturing Analytics · Quality Management · Machine Learning · Causal AI · Industry 4.0 · IoT
+
+## Ethonai on APIs.io
+
+Everything profiled for Ethonai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ethonai/](https://apis.io/providers/ethonai/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ethonai Domain Security](https://apis.io/security/ethonai/ethonai-domain-security/)
+- [Ethonai Trust Center](https://apis.io/security/ethonai/ethonai-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.ethon.com/)
+- [Blog](https://www.ethon.com/news)
+- [Trust centre](https://trust.ethon.com)
+
+## API Evangelist rating
+
+**Kin Score 4.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ethonai/](https://apis.io/providers/ethonai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ethonai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ethonai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
